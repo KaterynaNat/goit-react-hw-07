@@ -4,7 +4,7 @@ import styles from "./ContactForm.module.css";
 
 // Redux
 import { useDispatch, useSelector } from "react-redux";
-import { addContact } from "../../redux/contactsSlice";
+import { addContact } from "../../redux/contactsOps";
 import { selectContacts } from "../../redux/selectors";
 
 const nameRegex = /^[A-Za-z ]+$/;
